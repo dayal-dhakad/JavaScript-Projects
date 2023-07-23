@@ -85,8 +85,10 @@ const reset = () =>{
 
 const endQuiz = () =>{
     document.getElementById("box").innerHTML = `
+    <div style = "text-align:center;">
     <h3> Your Response is Submitted Successfully </h3>
     <h2> ${correct} / ${total} are correct </h2>
+    </div>
     `
 }
 
